@@ -1,15 +1,15 @@
 ---
 documentclass: article
 lang: "en"
-title: "Properties of Expanding Universes"
-subtitle: "PhD Thesis @ University of Cambridge"
-author: "Stephen Hawking"
-date: "1965/1966"
+title: "Logic for Artificial Intelligence"
+subtitle: "M.Sc. Course @ University of Insubria"
+author: "Roberto Vicario"
+date: "2025/2026"
 
 titlepage: false
 titlepage-color: "FFFFFF"
 titlepage-text-color: "000000"
-titlepage-rule-color: "FF0000"
+titlepage-rule-color: "007161"
 toc: true
 toc-own-page: true
 numbersections: true
@@ -19,12 +19,12 @@ urlcolor: "blue"
 
 header-includes:
     - |
-      ```{=latex}
-      \usepackage{tcolorbox}
-      \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
-      \newtcolorbox{warning-box}{colback=orange!5!white,arc=0pt,outer arc=0pt,colframe=orange!80!black}
-      \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
-      ```
+        ```{=latex}
+        \usepackage{tcolorbox}
+        \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
+        \newtcolorbox{warning-box}{colback=orange!5!white,arc=0pt,outer arc=0pt,colframe=orange!80!black}
+        \newtcolorbox{error-box}{colback=red!5!white,arc=0pt,outer arc=0pt,colframe=red!75!black}
+        ```
 
 pandoc-latex-environment:
     info-box: [info]
