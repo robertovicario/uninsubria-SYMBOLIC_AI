@@ -1,9 +1,9 @@
 | <img src="docs/logo.svg" width="128"> |
 | - |
 
-# [Course_Name], [BSc_MSc_PhD] Course @ [Your_University]
+# Symbolic Artificial Intelligence, M.Sc. Course @ University of Insubria
 
-This repository contains my personal materials for the [Course_Name] course at the [Your_University], part of the [BSc_MSc_PhD] in [Faculty_Name].
+This repository contains my personal materials for the Symbolic AI course at the University of Insubria, part of the M.Sc. in [Faculty_Name].
 
 ## Overview
 
