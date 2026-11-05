@@ -1,0 +1,16 @@
+{
+  "slots": ["Lun 09:00", "Lun 14:00", "Mar 09:00", "Mar 14:00"],
+  "rooms": [
+    {"id": "A1", "capacity": 100},
+    {"id": "A2", "capacity": 40, "available": ["Lun 09:00", "Mar 09:00", "Mar 14:00"]}
+  ],
+  "exams": [
+    {"id": "Logica", "students": 30, "teachers": ["Rossi"], "groups": ["LM18-1"]},
+    {"id": "Algoritmi", "students": 80, "teachers": ["Bianchi"], "groups": ["L31-2"]},
+    {"id": "Basi di dati", "students": 70, "teachers": ["Verdi"], "groups": ["L31-2"]},
+    {"id": "Reti", "students": 35, "teachers": ["Neri"], "groups": ["L31-3"]},
+    {"id": "Machine Learning", "students": 35, "teachers": ["Rossi"], "groups": ["LM18-1"]},
+    {"id": "Sistemi operativi", "students": 65, "teachers": ["Bianchi"], "groups": ["L31-2"]},
+    {"id": "Programmazione", "students": 90, "teachers": ["Gialli"], "groups": ["L31-1"], "available": ["Lun 09:00"]}
+  ]
+}

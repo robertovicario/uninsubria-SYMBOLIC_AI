@@ -22,6 +22,8 @@ header-includes:
         ```{=latex}
         % Compatibility with Pandoc 3.10 tables and older caption packages.
         \AtBeginEnvironment{longtable}{\def\LTcaptype{table}}
+        % Start each level-one heading on a new page.
+        \AddToHook{cmd/section/before}{\clearpage}
         \usepackage{tcolorbox}
         \newtcolorbox{info-box}{colback=cyan!5!white,arc=0pt,outer arc=0pt,colframe=cyan!60!black}
         \newtcolorbox{warning-box}{colback=orange!5!white,arc=0pt,outer arc=0pt,colframe=orange!80!black}
